@@ -1,6 +1,6 @@
 # wikiget
 
-Homebrew formula for clpo13/wikiget.
+Homebrew formula for [wikiget](https://github.com/clpo13/wikiget).
 
 ## How do I install these formulae?
 `brew install clpo13/wikiget/<formula>`
