@@ -3,8 +3,8 @@ class Wikiget < Formula
 
   desc "Download files from MediaWiki sites"
   homepage "https://github.com/clpo13/wikiget"
-  url "https://github.com/clpo13/wikiget/archive/v0.4.0.tar.gz"
-  sha256 "96e2447ded3c1d6338e48d4b57984ce46af2d6deb6736edf703513333f88cf51"
+  url "https://github.com/clpo13/wikiget/archive/v0.2.1.tar.gz"
+  sha256 "a79fbfeb163b1b37ac59a45d715884d8f03806fba30dce661b8743efefa15b76"
   head "https://github.com/clpo13/wikiget.git"
 
   depends_on "python"
@@ -60,8 +60,8 @@ class Wikiget < Formula
   end
 
   resource "tqdm" do
-    url "https://files.pythonhosted.org/packages/cd/22/f15bb3c0a2810da0e825d193fb76d782015d82c676c4f682a957814926d7/tqdm-4.41.1.tar.gz"
-    sha256 "4789ccbb6fc122b5a6a85d512e4e41fc5acad77216533a6f2b8ce51e0f265c23"
+    url "https://files.pythonhosted.org/packages/4c/45/830c5c4bfaba60ef7d356a53c7751a86c81d148a16fda0daf3ac5ca8e288/tqdm-4.40.1.tar.gz"
+    sha256 "e405d16c98fcf30725d0c9d493ed07302a18846b5452de5253030ccd18996f87"
   end
 
   resource "urllib3" do
