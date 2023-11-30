@@ -7,13 +7,7 @@ class Wikiget < Formula
   sha256 "6ddf1d43c725c2e52fab5bd7e80f13155acbda2f873f197e3bfccb129f693649"
   head "https://github.com/clpo13/wikiget.git"
 
-  depends_on "python-certifi"
-  depends_on "python-charset-normalizer"
-  depends_on "python-idna"
-  depends_on "python-oauthlib"
-  depends_on "python-requests"
   depends_on "python-requests-oauthlib"
-  depends_on "python-urllib3"
   depends_on "python@3.12"
   depends_on "six"
 
