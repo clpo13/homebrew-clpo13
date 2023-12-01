@@ -1,23 +1,27 @@
-# Homebrew
+# clpo13/homebrew-wikiget
 
-Homebrew formulae for utilities by [clpo13](https://github.com/clpo13).
+Homebrew formulae for wikiget and its dependencies.
 
 ## Included formulae
 
-* [wikiget](https://github.com/clpo13/wikiget)
+* [wikiget](https://github.com/clpo13/wikiget) v0.8.0
+  * [mwclient](https://github.com/mwclient/mwclient), v0.10.1
+  * [tqdm](https://tqdm.github.io/), v4.66.1
 
-## How do I install these formulae?
+## How do I install it?
 
-`brew install clpo13/brew/<formula>`
+`brew install clpo13/wikiget/wikiget`
 
-Or `brew tap clpo13/brew` and then `brew install <formula>`.
+Or `brew tap clpo13/wikiget` and then `brew install wikiget`.
 
-Or install via URL (which will not receive updates):
+Or install via URL (which will not receive automatic updates):
 
+```shell
+brew install https://raw.githubusercontent.com/clpo13/homebrew-wikiget/master/Formula/wikiget.rb
 ```
-brew install https://raw.githubusercontent.com/clpo13/homebrew-brew/master/Formula/<formula>.rb
-```
+
+The necessary dependencies will be pulled in automatically.
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`brew help`, `man brew`, or check [Homebrew's documentation](https://docs.brew.sh).
