@@ -8,6 +8,7 @@ class Wikiget < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/clpo13/wikiget.git", branch: "master"
 
+  depends_on "python-hatchling" => :build
   depends_on "clpo13/wikiget/mwclient"
   depends_on "clpo13/wikiget/tqdm"
   depends_on "python@3.12"

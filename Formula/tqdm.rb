@@ -8,9 +8,16 @@ class Tqdm < Formula
   license all_of: ["MPL-2.0", "MIT"]
   head "https://github.com/tqdm/tqdm.git", branch: "master"
 
-  depends_on "python@3.12"
+  depends_on "python-setuptools" => :build
+  depends_on "python@3.12" => [:build, :test]
 
   def install
-    virtualenv_install_with_resources
+    python_exe = Formula["python@3.12"].opt_libexec/"bin/python"
+    system python_exe, "-m", "pip", "install", *std_pip_args, "."
+  end
+
+  test do
+    python_exe = Formula["python@3.12"].opt_libexec/"bin/python"
+    system python_exe, "-c", "import tqdm"
   end
 end
