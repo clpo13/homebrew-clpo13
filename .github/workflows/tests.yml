@@ -29,7 +29,7 @@ jobs:
 
       - run: brew test-bot --only-tap-syntax
 
-      - run: brew test-bot --only-formulae --root-url=https://ghcr.io/v2/clpo13/wikiget
+      - run: brew test-bot --only-formulae --root-url=https://ghcr.io/v2/clpo13/clpo13
         if: github.event_name == 'pull_request'
 
       - name: Upload bottles as artifact

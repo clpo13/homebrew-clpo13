@@ -1,4 +1,4 @@
-# clpo13/homebrew-wikiget
+# homebrew-clpo13
 
 [Homebrew](https://brew.sh) formulae for [wikiget](https://github.com/clpo13/wikiget) and its dependencies.
 
@@ -11,13 +11,13 @@
 ## How do I install it?
 
 ```shell
-brew install clpo13/wikiget/wikiget
+brew install clpo13/clpo13/wikiget
 ```
 
 or
 
 ```shell
-brew tap clpo13/wikiget
+brew tap clpo13/clpo13
 brew install wikiget
 ```
 
@@ -27,7 +27,7 @@ This repo will be tapped and the necessary dependencies will be pulled in automa
 
 ```shell
 brew uninstall wikiget mwclient tqdm
-brew untap clpo13/wikiget
+brew untap clpo13/clpo13
 ```
 
 ## Documentation
