@@ -26,7 +26,7 @@ class Mwclient < Formula
   def install
     pythons.each do |python|
       python_exe = python.opt_libexec/"bin/python"
-      system python_exe, *Language::Python.setup_install_args(prefix, python_exe)
+      system python_exe, "-m", "pip", "install", *std_pip_args, "."
     end
   end
 
