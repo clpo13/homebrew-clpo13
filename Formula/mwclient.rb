@@ -8,11 +8,18 @@ class Mwclient < Formula
   license "MIT"
   head "https://github.com/mwclient/mwclient.git", branch: "master"
 
+  depends_on "python-setuptools" => :build
+  depends_on "python@3.12" => [:build, :test]
   depends_on "python-requests-oauthlib"
-  depends_on "python@3.12"
   depends_on "six"
 
   def install
-    virtualenv_install_with_resources
+    python_exe = Formula["python@3.12"].opt_libexec/"bin/python"
+    system python_exe, *Language::Python.setup_install_args(prefix, python_exe)
+  end
+
+  test do
+    python_exe = Formula["python@3.12"].opt_libexec/"bin/python"
+    system python_exe, "-c", "import mwclient"
   end
 end
