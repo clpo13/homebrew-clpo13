@@ -6,6 +6,13 @@ class Tqdm < Formula
   license all_of: ["MPL-2.0", "MIT"]
   head "https://github.com/tqdm/tqdm.git", branch: "master"
 
+  bottle do
+    root_url "https://ghcr.io/v2/clpo13/clpo13"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, ventura:      "f09713b3d378ed219450edc7941c6f112e1aeb2e9c290ff06bae342b5f678936"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "9fc0a1d7d1dc19a83d53fdb335bb325eddaa83f20b8150be0df3f2777da39a6f"
+  end
+
   depends_on "python-setuptools" => :build
   depends_on "python@3.11" => [:build, :test]
   depends_on "python@3.12" => [:build, :test]
