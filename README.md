@@ -4,9 +4,9 @@
 
 ## Included formulae
 
-* [wikiget](https://github.com/clpo13/wikiget) v0.8.0
-  * [mwclient](https://github.com/mwclient/mwclient) v0.10.1
-  * [tqdm](https://tqdm.github.io/) v4.66.1
+* [wikiget](https://github.com/clpo13/wikiget)
+  * [mwclient](https://github.com/mwclient/mwclient)
+  * [tqdm](https://tqdm.github.io/)
 
 ## How do I install it?
 
@@ -20,8 +20,6 @@ or
 brew tap clpo13/clpo13
 brew install wikiget
 ```
-
-This repo will be tapped and the necessary dependencies will be pulled in automatically.
 
 ## How do I uninstall it?
 
