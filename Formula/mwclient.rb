@@ -8,9 +8,9 @@ class Mwclient < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/clpo13/clpo13"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, ventura:      "65744703885563b9cfd9f6d6c1afc768d2028ffc9891b310c983fc48b181c6fc"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "90588da699526cc1ec1e3192ca54936076e1c92c46d2800a2ad4577b92e72c58"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, ventura:      "c20edea2fc6d66c4260600778083fcd2dbc3f24eaf3240d55b74cd3885e99ed4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "17a4a6b267125a95ed71ecd47f149d40a3c8a8bf35b2562b7ef416d84a5a5b5f"
   end
 
   depends_on "python-setuptools" => :build
