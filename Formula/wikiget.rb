@@ -9,8 +9,8 @@ class Wikiget < Formula
   head "https://github.com/clpo13/wikiget.git", branch: "master"
 
   depends_on "python-hatchling" => :build
-  depends_on "clpo13/brew/mwclient"
-  depends_on "clpo13/brew/tqdm"
+  depends_on "clpo13/clpo13/mwclient"
+  depends_on "clpo13/clpo13/tqdm"
   depends_on "python@3.12"
 
   def install
