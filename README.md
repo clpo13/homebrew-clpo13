@@ -1,4 +1,4 @@
-# clpo13/homebrew-wikiget
+# clpo13/homebrew-brew
 
 [Homebrew](https://brew.sh) formulae for [wikiget](https://github.com/clpo13/wikiget) and its dependencies.
 
