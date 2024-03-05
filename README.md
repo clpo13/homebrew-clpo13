@@ -6,6 +6,7 @@
 
 * [wikiget](https://github.com/clpo13/wikiget)
   * [mwclient](https://github.com/mwclient/mwclient)
+    * python-requests-oauthlib and python-oauthlib
   * [tqdm](https://tqdm.github.io/)
 
 ## How do I install it?
