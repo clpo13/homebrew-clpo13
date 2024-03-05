@@ -5,6 +5,11 @@ class PythonOauthlib < Formula
   sha256 "9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://ghcr.io/v2/clpo13/clpo13"
+    sha256 cellar: :any_skip_relocation, ventura: "68670238f60006d6cb3af18e87a7836c8552843dee46444349aa230f93f7f3b7"
+  end
+
   depends_on "python-setuptools" => :build
   depends_on "python@3.11" => [:build, :test]
   depends_on "python@3.12" => [:build, :test]
