@@ -8,12 +8,6 @@ class Wikiget < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/clpo13/wikiget.git", branch: "master"
 
-  bottle do
-    root_url "https://ghcr.io/v2/clpo13/clpo13"
-    rebuild 3
-    sha256 cellar: :any_skip_relocation, ventura: "250d7520ea6e5869555a8dbf57ce96b10be26bc9debadc41f5ed5435351c0c9f"
-  end
-
   depends_on "python-hatchling" => :build
   depends_on "python@3.12"
 
