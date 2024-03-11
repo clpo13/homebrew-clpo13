@@ -1,13 +1,10 @@
 # homebrew-clpo13
 
-[Homebrew](https://brew.sh) formulae for [wikiget](https://github.com/clpo13/wikiget) and its dependencies.
+[Homebrew](https://brew.sh) formula for [wikiget](https://github.com/clpo13/wikiget).
 
 ## Included formulae
 
 * [wikiget](https://github.com/clpo13/wikiget)
-  * [mwclient](https://github.com/mwclient/mwclient)
-    * python-requests-oauthlib and python-oauthlib
-  * [tqdm](https://tqdm.github.io/)
 
 ## How do I install it?
 
@@ -25,7 +22,7 @@ brew install wikiget
 ## How do I uninstall it?
 
 ```shell
-brew uninstall wikiget mwclient tqdm
+brew uninstall wikiget
 brew untap clpo13/clpo13
 ```
 
