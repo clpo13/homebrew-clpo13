@@ -10,7 +10,6 @@ class Wikiget < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/clpo13/clpo13"
-    rebuild 2
     sha256 cellar: :any_skip_relocation, x86_64_linux: "dc7a82db8085cb1332a35fd6f6a386dd6d8b03ad9dc9b9d5c4064fd12b99c847"
   end
 
