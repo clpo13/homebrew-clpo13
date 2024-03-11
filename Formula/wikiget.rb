@@ -10,9 +10,8 @@ class Wikiget < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/clpo13/clpo13"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, ventura:      "5bcb059b68f60306c3bcd1b1252bf9104d1546f7ac9e9baddfbb152acaa90be1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "a3d17c3da4d2e723fb9caffc86db60bfba3b72b462bac53f0df32d05f9091f0d"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "dc7a82db8085cb1332a35fd6f6a386dd6d8b03ad9dc9b9d5c4064fd12b99c847"
   end
 
   depends_on "python-hatchling" => :build
