@@ -15,7 +15,6 @@ class Wikiget < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "ffa342b68de80ee522631a91230c75352a9c9a1bf65972597dd04c15597462df"
   end
 
-  depends_on "python-hatchling" => :build
   depends_on "python@3.12"
 
   resource "certifi" do
